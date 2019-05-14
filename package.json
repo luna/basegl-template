@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "name": "BaseGL Plugin",
+    "version": "1.0.0",
+    "description": "BaseGL Plugin Template",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "keywords": [
+        "BaseGL"
+    ],
+    "author": "BaseGL Team",
+    "license": "MIT",
+    "devDependencies": {
+        "source-map-loader": "^0.2.4",
+        "webpack": "^4.30.0",
+        "webpack-cli": "^3.3.1",
+        "@luna-lang/jsnext": "^0.0.10"
+    },
+    "dependencies": {
+        "basegl": "^0.2.38"
+    }
+}
